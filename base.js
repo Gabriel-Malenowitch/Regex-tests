@@ -75,6 +75,7 @@ export const htmlExample = `
 </script>
 </body>`
 
+<<<<<<< HEAD
 export const emails = [
     'açsdgjhkaçskljhçdsa@gmail.com',
     'açsdgjhkaçskljhçdsa@academico.ufgd.edu.br',
@@ -85,6 +86,9 @@ export const emails = [
     'açsdg jhkaçskljhçdsa@gmail.com',
     'açsdgjhkaçskljhçdsa@.com',
 ]
+=======
+
+>>>>>>> 6903184ec3a047b4940d4533795e4f11bc1b4b80
 
 export const cpfs = `
 Os CPFs são:
