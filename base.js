@@ -1,4 +1,4 @@
-export function print(text, text2){
+export function print(text=true, text2){
 	const n = document.createElement('p')
 	n.innerHTML = `${text}  ${text2}`
 	n.style.color = text?'#00BB00':'#DE5555'
@@ -27,7 +27,7 @@ export const arquivos = [
 ]
 
 export const htmlExample = `
-<html lang="en"><head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,15 +73,17 @@ export const htmlExample = `
 	}
 	// ]]>
 </script>
-</body></html>`
+</body>`
 
 export const emails = [
-    'gabrielbotelhomalenowitch@gmail.com',
-    'gabriel.malenowitch021@academico.ufgd.edu.br',
-    '021.84@estudante.sed.sc.gov.br',
-    'gabrielmalenowitch6498@gmail.com',
-    'gabriel20012003malenowitch@gmail.com',
-    'gabriel20012003malenowitch@.com',
+    'açsdgjhkaçskljhçdsa@gmail.com',
+    'açsdgjhkaçskljhçdsa@academico.ufgd.edu.br',
+    'ãçsdgjhkaçskljhçdsa@estudante.sed.sc.gov.br',
+    'âçsdgjhkaçskljhçdsa@gmail.com',
+    'açsdgjhkáçskljhçdsa@gmail.com',
+    'açsdgjhkaçskljhçdsa@gmail.com.',
+    'açsdg jhkaçskljhçdsa@gmail.com',
+    'açsdgjhkaçskljhçdsa@.com',
 ]
 
 export const cpfs = `
@@ -106,36 +108,7 @@ Os Ips são:
         10.021.08.20 (ESTE IP NÃO É VÁLIDO)
    255.255.255.255
 `;
-export const ip = [
-	"200.25.52.192/29",
-	"0.0.0.0/80",
-	"255.255.255.255/9999",
-	"255.255.255.255/99999",
-	"52.67.255.165/32",
-	"170.82.175.0/24",
-	"187.16.245.192/29",
-	"201.148.101.24/29",
-	"200.189.173.48/28",
-	"200.98.28.70/32",
-	"187.85.159.176/29",
-	"170.84.29.208/29",
-	"34.95.168.58/32",
-	"45.63.104.13/32",
-	"140.82.27.226/32",
-	"45.77.97.241/32",
-	"207.246.123.237/32",
-	"207.148.26.195/32",
-	"186.211.161.0/29",
-	"45.238.96.152/29",
-	"34.95.213.225/32",
-	"34.95.209.169/32",
-	"35.247.222.78/32",
-	"34.95.253.129/32",
-	"34.95.148.131/32",
-	"34.95.164.249/32",
-	"129.159.48.87/32",
-	"200.25.56.64/28",
-]
+
 export const CPFs = [
 	"254.224.877-45",
 	"215.978.456-12",

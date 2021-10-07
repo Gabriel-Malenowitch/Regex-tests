@@ -9,4 +9,4 @@ console.log(base)
 console.log(base.match(regExp1))
 console.log(base.replace(/(a)|(e)|(o)/ig, '$1$2$3'))
 
- 
+console.log(base.match(/.+/g))
